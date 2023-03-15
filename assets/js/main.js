@@ -1,9 +1,13 @@
-/**
-* Template Name: Vesperr - v4.10.0
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+window.addEventListener("load", function() {
+  const loader = document.getElementById("loading");
+  setTimeout(function() {
+    loader.style.opacity = "0";
+    loader.style.display = "none";
+  }, 2000);
+});
+
+
 (function() {
   "use strict";
 
